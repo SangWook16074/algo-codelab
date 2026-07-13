@@ -1,0 +1,14 @@
+{
+  "name": "algo-codelab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "파이썬 알고리즘 기초 코드랩 (GitBook / honkit)",
+  "scripts": {
+    "serve": "honkit serve",
+    "build": "honkit build"
+  },
+  "devDependencies": {
+    "gitbook-plugin-copy-code-button": "^0.0.2",
+    "honkit": "^6.0.2"
+  }
+}
