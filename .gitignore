@@ -1,4 +1,8 @@
 node_modules/
 _book/
+_site/
 *.log
 .DS_Store
+
+# OMC local state
+.omc/

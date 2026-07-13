@@ -1,11 +1,14 @@
 {
-  "name": "algo-codelab",
+  "name": "codelab",
   "version": "1.0.0",
   "private": true,
-  "description": "파이썬 알고리즘 기초 코드랩 (GitBook / honkit)",
+  "description": "codelab.hansw.dev — 코딩테스트/알고리즘 학습 코드랩 모음",
   "scripts": {
-    "serve": "honkit serve",
-    "build": "honkit build"
+    "build:python": "node scripts/build-codelab.js ps/python ps/python",
+    "build:hub": "node scripts/build-hub.js",
+    "build": "npm run build:python && npm run build:hub",
+    "serve:python": "honkit serve ps/python",
+    "clean": "rm -rf _site ps/python/_book"
   },
   "devDependencies": {
     "gitbook-plugin-copy-code-button": "^0.0.2",
