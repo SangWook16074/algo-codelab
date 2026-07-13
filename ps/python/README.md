@@ -10,19 +10,22 @@
 - 각 코드 블록을 복사해서 직접 실행해보세요. (프로그래머스 코드 실행, 또는 [replit.com](https://replit.com), 로컬 `python3`)
 - 코드 아래 `# 출력:` 주석은 그 코드를 실행했을 때 나오는 결과입니다.
 - **모든 예제는 그대로 복사해서 IDE에 붙여넣으면 바로 실행됩니다.** 별도 입력이 필요 없어요.
-- 실제 코딩테스트에서 쓰는 `input()` 문법이 나오는 예제는, 바로 아래에 **▶ 바로 실행해보기** 블록을 함께 넣어 두었습니다. 원리는 `input()` 버전으로 배우고, 실행은 복붙 버전으로 확인하세요.
+- 각 챕터는 **기본 문법**을 먼저 다루고, 끝에 **🚀 더 나아가기**로 코딩테스트에서 실제로 쓰이는 심화 내용(표준 라이브러리 함수로 데이터를 다루는 법)을 이어갑니다. 처음엔 기본만 익히고, 익숙해지면 심화로 넘어가세요.
 - 각 섹션 끝의 💡 는 "이게 문제풀이에서 왜 필요한지"를 알려줍니다.
+
+> **참고 — 프로그래머스는 `input()`이 필요 없어요.**
+> 프로그래머스는 `def solution(...)` 함수의 **매개변수로 값이 들어오고**, `return`으로 답을 돌려주는 방식입니다.
+> 그래서 이 자료는 `input()`/`print()`로 입출력을 처리하는 부분은 다루지 않고, **문제풀이에 바로 쓰는 문법**에 집중합니다.
 
 ## 목차
 
-1. [입력과 출력](chapters/01-input-output.md)
-2. [변수와 자료형](chapters/02-variables-types.md)
-3. [연산자](chapters/03-operators.md)
-4. [조건문 (if)](chapters/04-conditionals.md)
-5. [반복문 (for / while)](chapters/05-loops.md)
-6. [리스트 (list)](chapters/06-list.md)
-7. [문자열 (string)](chapters/07-string.md)
-8. [딕셔너리와 셋 (dict / set)](chapters/08-dict-set.md)
-9. [함수 (def)](chapters/09-function.md)
-10. [자주 쓰는 내장 함수](chapters/10-builtins.md)
-11. [리스트 컴프리헨션](chapters/11-list-comprehension.md)
+1. [변수와 자료형](chapters/01-variables-types.md)
+2. [연산자](chapters/02-operators.md)
+3. [조건문 (if)](chapters/03-conditionals.md)
+4. [반복문 (for / while)](chapters/04-loops.md)
+5. [리스트 (list)](chapters/05-list.md)
+6. [문자열 (string)](chapters/06-string.md)
+7. [딕셔너리와 셋 (dict / set)](chapters/07-dict-set.md)
+8. [함수 (def)](chapters/08-function.md)
+9. [자주 쓰는 내장 함수](chapters/09-builtins.md)
+10. [리스트 컴프리헨션](chapters/10-list-comprehension.md)

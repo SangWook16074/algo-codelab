@@ -1,5 +1,9 @@
 {
   "title": "파이썬 알고리즘 기초 코드랩",
   "language": "ko",
-  "plugins": ["copy-code-button"]
+  "plugins": ["copy-code-button", "-fontsettings"],
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "js": ["styles/theme-toggle.js"]
 }
