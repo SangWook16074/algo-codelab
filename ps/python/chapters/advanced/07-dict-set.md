@@ -1,8 +1,8 @@
-# 7. 딕셔너리와 셋 — 더 나아가기
+# 7. 딕셔너리와 셋
 
 여기서는 `collections` 모듈과 집합 연산을 조금 더 깊게 다뤄봅니다. 개수 세기나 그래프 문제에서 코드를 훨씬 짧고 깔끔하게 만들어 줍니다.
 
-### `collections.Counter` — 개수 세기를 한 줄로
+### `collections.Counter`
 
 위에서 `count.get(ch, 0) + 1` 로 개수를 세는 패턴을 봤죠. `Counter`를 쓰면 이걸 한 줄로 끝낼 수 있어요.
 
@@ -25,7 +25,7 @@ from collections import Counter
 print(Counter([1, 1, 1, 2, 2, 3]))   # 출력: Counter({1: 3, 2: 2, 3: 1})
 ```
 
-### `collections.defaultdict` — 기본값이 있는 딕셔너리
+### `collections.defaultdict`
 
 `defaultdict`는 없는 key를 처음 건드릴 때 기본값을 자동으로 만들어 줍니다. 그래서 `get` 없이 바로 `+=` 나 `append`를 쓸 수 있어요.
 
@@ -50,7 +50,7 @@ graph[2].append(1)
 print(dict(graph))            # 출력: {1: [2, 3], 2: [1]}
 ```
 
-### 집합 연산 — 교집합 · 합집합 · 차집합
+### 집합 연산
 
 두 set 사이에는 연산 기호를 바로 쓸 수 있어요. 공통 원소를 찾거나 중복을 제거할 때 아주 강력합니다.
 
@@ -64,7 +64,7 @@ print(a - b)   # 출력: {1, 2}              (차집합 — a에만 있는 것)
 print(a ^ b)   # 출력: {1, 2, 5, 6}        (대칭차 — 한쪽에만 있는 것)
 ```
 
-### 딕셔너리 순회 — key와 value를 함께 꺼내기
+### 딕셔너리 순회
 
 `.items()`를 쓰면 key와 value를 한 번에 꺼내며 반복할 수 있어요.
 
@@ -81,7 +81,7 @@ print(list(scores.keys()))     # 출력: ['철수', '영희', '민수']
 print(list(scores.values()))   # 출력: [90, 85, 70]
 ```
 
-### 딕셔너리 정렬 — 값 기준으로 줄 세우기
+### 딕셔너리 정렬
 
 딕셔너리 자체는 정렬할 수 없지만, `.items()`를 `sorted`에 넣으면 원하는 기준으로 줄을 세울 수 있어요. `key=lambda x: x[1]` 은 "value 기준으로 정렬"이라는 뜻입니다.
 

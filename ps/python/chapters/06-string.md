@@ -25,7 +25,7 @@ print(s.split())          # 출력: ['hello', 'world']  (공백으로 자르기)
 print(s.count("l"))       # 출력: 3   (l의 개수)
 ```
 
-## `join` — 리스트를 문자열로 합치기 (split의 반대)
+## `join`
 
 ```python
 words = ["a", "b", "c"]
@@ -33,7 +33,7 @@ print("".join(words))     # 출력: abc
 print("-".join(words))    # 출력: a-b-c   (사이에 - 를 끼워서 합침)
 ```
 
-## 문자 ↔ 숫자(아스키 코드) — `ord` / `chr`
+## 문자 ↔ 숫자(아스키 코드)
 
 문자를 숫자로 다뤄야 하는 문제(암호화, 알파벳 순서 계산 등)에서 씁니다.
 

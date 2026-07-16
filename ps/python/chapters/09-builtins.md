@@ -24,7 +24,7 @@ words = ["banana", "kiwi", "apple"]
 print(sorted(words, key=len))        # 출력: ['kiwi', 'apple', 'banana']  (길이순)
 ```
 
-## `enumerate` — 번호와 값을 함께
+## `enumerate`
 
 ```python
 fruits = ["사과", "바나나", "포도"]
@@ -36,7 +36,7 @@ for i, fruit in enumerate(fruits):
 # 2 포도
 ```
 
-## `zip` — 두 리스트를 짝지어서
+## `zip`
 
 ```python
 names = ["철수", "영희"]

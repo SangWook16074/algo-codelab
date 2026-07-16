@@ -23,7 +23,7 @@ print(is_even(4))         # 출력: True
 print(is_even(7))         # 출력: False
 ```
 
-## 기본값 인자 — 안 넘기면 기본값 사용
+## 기본값 인자
 
 ```python
 def greet(name, greeting="안녕"):
