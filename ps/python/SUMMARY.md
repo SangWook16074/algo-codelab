@@ -54,6 +54,15 @@
 * [10. 탐욕법 (그리디)](chapters/algorithm/10-greedy.md)
 * [11. 다이나믹 프로그래밍 (DP)](chapters/algorithm/11-dp.md)
 
+## 🔮 심화 알고리즘
+
+* [1. 트리와 이진 트리](chapters/advanced-algorithm/01-tree.md)
+* [2. 최단 경로 (다익스트라)](chapters/advanced-algorithm/02-dijkstra.md)
+* [3. 유니온 파인드 (서로소 집합)](chapters/advanced-algorithm/03-union-find.md)
+* [4. 최소 신장 트리 (크루스칼)](chapters/advanced-algorithm/04-mst.md)
+* [5. 위상 정렬](chapters/advanced-algorithm/05-topological-sort.md)
+* [6. DP 심화 (LIS / LCS / 배낭)](chapters/advanced-algorithm/06-dp-advanced.md)
+
 ## 마무리
 
 * [이제 뭘 해야 하나요?](chapters/99-next-steps.md)
